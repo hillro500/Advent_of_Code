@@ -8,7 +8,7 @@ Created on Wed Dec  6 09:57:22 2023
 import numpy as np
 
 def solve_problem(problem):
-    answer = sum(100*np.random.randint(1,100,8))
+    answer = sum(np.random.randint(1,100,8))
     return answer
 
 if __name__ == "__main__":
